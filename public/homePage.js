@@ -82,7 +82,6 @@ const cbGetFavorites = (response) => {
         favoritesWidget.fillTable(response.data);
         moneyManager.updateUsersList(response.data);
     }
-
 }
 ApiConnector.getFavorites(cbGetFavorites)
 
